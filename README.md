@@ -1,12 +1,13 @@
 # Torkoal 
 // C# Code. In Zip file, Separate files.
 
-// Boundary Script.cs
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+// Boundary Script.cs 
 
-public class BoundaryScript : MonoBehaviour {
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
+
+	public class BoundaryScript : MonoBehaviour {
 
 	// Use this for initialization
 	void cantExit(Collider myCollider)
@@ -17,11 +18,11 @@ public class BoundaryScript : MonoBehaviour {
 
 //Movement 
 //Enemy Movement.cs 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour {
+	public class EnemyMovement : MonoBehaviour {
 
     public float speed = 1;
 
@@ -53,12 +54,12 @@ public class EnemyMovement : MonoBehaviour {
 
 //LevelManager.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
+	using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour {
+	public class LevelManager : MonoBehaviour {
 
 	public void LoadLevel()
     {
@@ -70,11 +71,11 @@ public class LevelManager : MonoBehaviour {
 
 //QuitButton.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-public class Movement : MonoBehaviour {
+	public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -89,11 +90,11 @@ public class Movement : MonoBehaviour {
 
 //RestartButtonScript.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-public class Movement : MonoBehaviour {
+	public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -104,16 +105,16 @@ public class Movement : MonoBehaviour {
 	void Update () {
 		
 	}
-}
+	}
 
 //spawnMovement.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-public class spawnMovement : MonoBehaviour
-{
+	public class spawnMovement : MonoBehaviour
+	{
     Vector2 spawnPos;
     public GameObject enemyBag, enemyBottle, dolphin, gull, rings, fish;
     void Start()
@@ -157,18 +158,19 @@ public class spawnMovement : MonoBehaviour
         }
 
 
-    }
+   	}
 
-}
+	}
 
 //TurtleMovement.cs
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class TurtleMovement : MonoBehaviour
-{
+	using System.Collections.Generic;
+	using UnityEngine;
+	using UnityEngine.UI;
+	using UnityEngine.SceneManagement;
+
+	public class TurtleMovement : MonoBehaviour
+	{
 
     public float speed = 1;
     public int score = 0;
@@ -215,26 +217,26 @@ public class TurtleMovement : MonoBehaviour
 
 //LevelMangerScrpt.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
+	using UnityEngine.SceneManagement;
 
-public class LevelMangerScrpt : MonoBehaviour {
+	public class LevelMangerScrpt : MonoBehaviour {
 
     public void LoadLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-}
+	}
 
 //Movement.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-public class Movement : MonoBehaviour {
+	public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -245,15 +247,15 @@ public class Movement : MonoBehaviour {
 	void Update () {
 		
 	}
-}
+	}
 
 //UpAndDown.cs
 
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+	using System.Collections;
+	using System.Collections.Generic;
+	using UnityEngine;
 
-public class UpAndDown : MonoBehaviour {
+	public class UpAndDown : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -264,5 +266,5 @@ public class UpAndDown : MonoBehaviour {
 	void Update () {
 		
 	}
-}
+	}
 
